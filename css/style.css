@@ -1,0 +1,178 @@
+body {
+  background-color: #FF2290;
+  background-image: url(../img/moroccan-flower.png);
+  color: grey;
+  font-size: 21px;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  text-align: center;
+}
+
+
+p {
+  color: #green;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  line-height: 1.4;
+
+  font-size: 30px;
+
+  text-align: center;
+
+  clear: both;
+}
+.intro{
+  font-size: 30px;
+  color: blue;
+}
+
+.hightlight{
+  color: pink;
+  background: lightblue;
+}
+
+.accent-color{
+  color:red;
+}
+
+.bolder{
+  text-decoration: line-through;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-style: 70px;
+  color: green;
+  font-family: "Times New Roman";
+
+  margin-bottom: 0px;
+}
+
+
+ .top-section {
+  background: pink;
+}
+
+.bottom-section {
+  background: green;
+}
+
+
+h2 {
+  margin-top: 0px;
+}
+span {
+  color:black;
+  font-size:30px;
+}
+
+
+/* the Css box model */
+
+/*
+Margin:
+border:
+padding:
+*/
+
+.box{
+  background-image: url(../img/sunset);
+  width: 300px;
+
+  margin: 100px 150px;
+  /*top-bottom   left-right*/
+
+  border: 15px solid white;
+  border-left-width: 15px;
+  border-left-color: grey;
+  border-left-style: solid;
+  border-right-width: 15px;
+  border-right-color: purple;
+  border-right-style: solid;
+  border-style: double;
+
+  padding: 100px 50px 75px 25px;
+      /* top right bottom left */
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+
+
+a{
+  color:blue;
+  text-decoration: none;
+}
+
+a:visited{
+  color: pink;
+}
+
+a:hover{
+  color:yellow;
+}
+
+a:active{
+  color: blue;
+}
+
+.body-text{
+  background-color: #DEBCEA;
+  padding: 30px;
+}
+
+.body-text p{
+  color: white;
+}
+.body-text a{
+  color: #2DE1E1;
+}
+
+.body-text a:hover{
+  color: white
+}
+
+.important-link, .body-text .important-link{
+  color: #B80000;
+}
+
+/* important overwrites things */
+
+ol{
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+ul{
+  list-style-image: url(../img/R.png);
+  background-color: pink;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+}
+ul li{
+  background-color: purple;
+  margin-top: 15px;
+}
+.red-box{
+  width: 500px;
+  background: hsla(150, 75%, 50%, .5);
+  color: white;
+  float: left;
+}
+
+.blue-box{
+  width: 500px;
+  background: rgba(0, 0, 255, 0.5);
+  color: white;
+  float: right;
+}
+
+img{
+  clear: both;
+}
+.container {
+  background: white;
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
