@@ -1,7 +1,10 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Website",
-    "html.format.enable": false,
-    "git.autoRepositoryDetection": false,
-    "git.enabled": true,
-    "git.autofetch": false
+  "liveServer.settings.multiRootWorkspaceName": "Website",
+  "html.format.enable": false,
+  "git.autoRepositoryDetection": false,
+  "git.enabled": true,
+  "git.autofetch": false,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "prettier.withNodeModules": false
 }
