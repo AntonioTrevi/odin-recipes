@@ -3,7 +3,7 @@
 	background-color: red;
 	color: rgb(0, 0, 0);
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: d;
 }
 .class {
 	font-size: 22px;
@@ -148,7 +148,7 @@ button {
 .menu {
 	width: 900px;
 	display: flex;
-	justify-content: space-evenly;
+	 space-evenly;
 }
 .signup {
 	margin-left: auto;
@@ -224,3 +224,78 @@ button {
 	width: 300px;
 }
 */
+/*body {
+	background-color: rgb(95, 125, 255);
+	display: flex;
+	border: 4px solid blue;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	width: 400px;
+	height: 300px;
+}
+
+.center-div {
+	color: black;
+	font-weight: 900;
+	background-color: rgb(255, 156, 156);
+	border: 7px solid rgb(161, 8, 8);
+	width: 7em;
+	height: 6em;
+	text-align: center;
+}
+header {
+	display: flex;
+	background-color: white;
+	color: rgb(118, 38, 193);
+	font-family: "Brush Script MT", cursive;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	justify-content: space-between;
+	padding: 8px;
+}
+ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+}
+a {
+	background-color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.logo {
+	font-size: 48px;
+	font-weight: bold;
+	font-style: italic;
+}
+.resize {
+	width: 50px;
+	background: rebeccapurple;
+	box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+	height: 50px;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+}
+.notification,
+.left {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+button {
+	color: white;
+	background-color: rgb(118, 38, 193);
+	padding: 8px 24px;
+	font-size: 17px;
+	border: none;
+	border-radius: 8px;
+}
+body {
+	background-color: rgb(241, 241, 241);
+	margin: 0;
+}*/
